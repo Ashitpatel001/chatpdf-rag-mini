@@ -1,11 +1,11 @@
-# 📚 Chat To PDF
+# Chat To PDF
 
-## 🚀 Overview
+## Overview
 Welcome to the Enterprise RAG Workbench. This is a production-ready, full-stack Retrieval-Augmented Generation application designed to bridge the gap between powerful Large Language Models (LLMs) and your private enterprise data. 
 
 A poorly structured README translates to poorly understood software. Therefore, this documentation serves as your architectural blueprint. This system moves beyond basic AI wrappers by implementing a sophisticated **Orchestration Loop** that enforces factual grounding, auditability, and semantic integrity. 
 
-## 🏗️ The Architectural Triad (Features)
+## The Architectural Triad (Features)
 
 This application is built on three foundational pillars:
 
@@ -26,7 +26,7 @@ This application is built on three foundational pillars:
 
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Frontend:** Custom HTML5, CSS3, Vanilla JavaScript (Decoupled UI).
 * **Backend Framework:** Flask (REST API orchestration).
 * **Orchestration Engine:** LangChain v1.x (Stable Ecosystem).

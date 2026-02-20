@@ -36,7 +36,7 @@ def upload_file():
         try:
             # Initialize Layer 1-6: Ingestion and Indexing
             rag_instance = GroqRAGSystem(temp_path)
-            return jsonify({'message': '✅ Document indexed successfully!'}), 200
+            return jsonify({'message': ' Document indexed successfully!'}), 200
         except Exception as e:
             return jsonify({'error': str(e)}), 500
         finally:

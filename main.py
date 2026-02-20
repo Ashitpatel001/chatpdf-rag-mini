@@ -25,10 +25,10 @@ class GroqRAGSystem:
         """
         Initializes the Triad architecture: Indexing, Retrieval, and Generation.
         """
-        print(f"--- Layer 1 & 2: Processing {pdf_path} ---")
+        print(f"Layer 1 & 2: Processing {pdf_path}")
         self.chunks = self._ingest_and_split(pdf_path)
         
-        print("--- Layer 4 & 6: Initializing Hybrid Index ---")
+        print("Layer 4 & 6: Initializing Hybrid Index ")
         self.vectorstore, self.bm25 = self._setup_retrieval(self.chunks)
         
         # Layer 9: Initialize Groq Llama 3.3

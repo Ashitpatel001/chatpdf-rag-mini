@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const formData = new FormData();
         formData.append('pdf_file', file);
 
-        uploadStatus.textContent = '🏗️ Building Vector Index...';
+        uploadStatus.textContent = ' Building Vector Index...';
         uploadStatus.className = '';
         uploadBtn.classList.add('loading');
 
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const toggleBtn = document.createElement('button');
             toggleBtn.classList.add('sources-btn');
-            toggleBtn.textContent = '🔍 View Retrieved Evidence (Bridge to Truth)';
+            toggleBtn.textContent = 'View Retrieved Evidence (Bridge to Truth)';
             
             const contentDiv = document.createElement('div');
             contentDiv.classList.add('sources-content');
